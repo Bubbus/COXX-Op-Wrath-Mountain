@@ -438,6 +438,11 @@ switch (_typeofUnit) do
 		_unit setUnitLoadout [["SMG_01_F","ACE_muzzle_mzls_smg_01","acc_flashlight_smg_01","",["30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",25],[],""],[],[],["U_B_CombatUniform_mcam_vest",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["ACE_morphine",10]]],["V_BandollierB_rgr",[["30Rnd_45ACP_Mag_SMG_01_Tracer_Red",5,25],["SmokeShell",4,1],["SmokeShellPurple",1,1],["rhs_mag_m67",1,1]]],["B_FieldPack_oli",[["ToolKit",1],["ACE_M26_Clacker",1],["rhsusf_m112x4_mag",2,1]]],"H_HelmetCrew_B","G_Tactical_Clear",[],["ItemMap","","","ItemCompass","ItemWatch","NVGoggles"]];
 	};
 	
+	case "diver":
+	{
+		_unit setUnitLoadout [["arifle_MXC_Black_F","muzzle_snds_65_TI_blk_F","","",["30Rnd_65x39_caseless_mag",30],[],""],[],["hgun_ACPC2_F","","","",["9Rnd_45ACP_Mag",8],[],""],["U_B_Wetsuit",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["ACE_morphine",10],["9Rnd_45ACP_Mag",2,8],["30Rnd_65x39_caseless_mag",2,30]]],["V_RebreatherB",[]],["B_ViperLightHarness_blk_F",[["rhs_mag_m67",4,1],["SmokeShell",2,1],["SmokeShellPurple",1,1],["SmokeShellYellow",1,1],["30Rnd_65x39_caseless_mag",6,30],["9Rnd_45ACP_Mag",2,8]]],"","rhsusf_oakley_goggles_clr",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+	};
+	
 	
 
 // CARGO: CAR - room for 10 weapons and 50 cargo items
