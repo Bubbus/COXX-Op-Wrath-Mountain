@@ -1,10 +1,15 @@
+//	Zeus extensions for CA, by Bubbus.
+//	
+//	This function is called from ca_fnc_zeusDeployment.
+//	Waits for the zeus display to be created (id = 312), then creates a spawn menu for gearscripted squads.
+
 if (isDedicated) exitWith {};
 disableSerialization;
 
-execVM "bub\zeus_ui\bub_fnc_zeusSetupUnits.sqf";
+[] call ca_fnc_zeusSetupUnits;
 
-_ctrls = missionNamespace getVariable ["bub_zeus_ctrls", []];
-missionNamespace setVariable ["bub_zeus_ctrls", _ctrls];
+_ctrls = missionNamespace getVariable ["ca_zeus_ctrls", []];
+missionNamespace setVariable ["ca_zeus_ctrls", _ctrls];
 _id = 500;
 
 { ctrlDelete _x } forEach _ctrls;
@@ -38,7 +43,7 @@ _bg ctrlCommit 0;
 _btn = ["RscButton"] call _fn_newCtrl;
 _btn ctrlSetPosition [ -0.05, 1.12, 0.28, 0.06 ];
 _btn ctrlSetText "Spawn units";
-_btn buttonSetAction '[bub_zeus_defToSpawn] execVM "bub\zeus_ui\bub_fnc_zeusDoSpawn.sqf";';
+_btn buttonSetAction '[ca_zeus_defToSpawn] call ca_fnc_zeusDoSpawn;';
 _btn ctrlCommit 0;
 
 
@@ -49,31 +54,31 @@ _unitsList ctrlAddEventHandler ["LBSelChanged",
 	params ["_list", "_sel"];
 	_type = _list lbText _sel;
 	
-	_defs = bub_zeus_listUnits;
+	_defs = ca_zeus_listUnits;
 	_def = _defs select _sel;
 	
-	bub_zeus_defToSpawn = _def;
+	ca_zeus_defToSpawn = _def;
 	
 }];
 _unitsList ctrlCommit 0;
 
-bub_zeus_unitsList_idc = ctrlIDC _unitsList;
+ca_zeus_unitsList_idc = ctrlIDC _unitsList;
 
 
 _categoriesList = ["RscCombo"] call _fn_newCtrl;
 _categoriesList ctrlSetPosition [ -0.05, 1.007, 0.28, 0.041 ];
-[ctrlIDC _categoriesList] execVM "bub\zeus_ui\bub_fnc_zeusFillCategories.sqf";
+[ctrlIDC _categoriesList] call ca_fnc_zeusFillCategories;
 _categoriesList ctrlAddEventHandler ["LBSelChanged", 
 {
 	params ["_list", "_sel"];
 	if (_sel < 0) exitWith {};
 	
-	_unitsListIDC = bub_zeus_unitsList_idc;
-	[_unitsListIDC, _sel] execVM "bub\zeus_ui\bub_fnc_zeusFillUnits.sqf";
+	_unitsListIDC = ca_zeus_unitsList_idc;
+	[_unitsListIDC, _sel] call ca_fnc_zeusFillUnits;
 	
 }];
 _categoriesList ctrlCommit 0;
 
 
-waitUntil { sleep 1; _display = findDisplay 312; isNull _display };
-execVM "bub\zeus_ui\bub_fnc_zeusSpawnButtons.sqf";
+waitUntil { sleep 0.2; _display = findDisplay 312; isNull _display };
+[] spawn ca_fnc_zeusSpawnButtons;
