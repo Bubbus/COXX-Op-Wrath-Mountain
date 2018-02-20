@@ -380,243 +380,108 @@ switch (_typeofUnit) do
 
 // ====================================================================================
 
-	case "ar":
+// LOADOUT: COMMANDER
+	case "ftl":
 	{
-		_unit setUnitLoadout [["LMG_Mk200_F","","acc_pointer_IR","optic_Hamr",["200Rnd_65x39_cased_Box_Tracer",200],[],"rhs_acc_harris_swivel"],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam_tshirt",[["ACE_fieldDressing",10],["ACE_bloodIV_250",1],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC343",1]]],["V_PlateCarrier2_rgr",[["16Rnd_9x21_Mag",3,17],["200Rnd_65x39_cased_Box",1,200],["SmokeShell",3,1],["SmokeShellGreen",1,1],["rhs_mag_m67",3,1]]],["B_AssaultPack_rgr",[["200Rnd_65x39_cased_Box",2,200],["200Rnd_65x39_cased_Box_Tracer",1,200]]],"H_HelmetB_grass","fow_g_gloves6",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]];
-	};
-	
-	
-	case "mk":
-	{
-		_unit setUnitLoadout [["arifle_MXM_Hamr_LP_BI_F","","acc_pointer_IR","optic_DMS",["30Rnd_65x39_caseless_mag",30],[],"rhs_acc_harris_swivel"],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["V_PlateCarrier1_rgr",[["SmokeShell",3,1],["SmokeShellGreen",1,1],["rhs_mag_m67",3,1],["30Rnd_65x39_caseless_mag",6,30],["30Rnd_65x39_caseless_mag_Tracer",2,30],["16Rnd_9x21_Mag",2,17]]],[],"H_HelmetB_grass","G_Aviator",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1]]],["rhsgref_6b23_khaki_nco",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",1,1],["SmokeShell",4,1]]],["B_AssaultPack_rgr",[["hlc_20Rnd_762x51_B_fal",7,20],["rhs_mag_rgo",1,1],["SmokeShell",1,1],["SmokeShellBlue",1,1],["SmokeShellGreen",1,1],["SmokeShellPurple",1,1]]],"rhsgref_fieldcap_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
 	case "lat":
 	{
-		_unit setUnitLoadout [["arifle_MX_ACO_pointer_F","","acc_pointer_IR","optic_Hamr",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],["launch_NLAW_F","","","",[],[],""],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_epinephrine",1],["ACE_fieldDressing",10],["ACE_morphine",10]]],["V_PlateCarrier2_rgr",[["30Rnd_65x39_caseless_mag",5,30],["16Rnd_9x21_Mag",2,17],["SmokeShell",3,1],["SmokeShellGreen",1,1],["rhs_mag_m67",3,1],["30Rnd_65x39_caseless_mag_Tracer",1,30]]],[],"H_HelmetB_sand","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],["rhs_weap_m72a7","","","",["rhs_m72a7_mag",1],[],""],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_rifleman",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",4,1],["SmokeShell",2,1],["SmokeShellBlue",1,1]]],["B_FieldPack_oli",[["hlc_20Rnd_762x51_B_fal",7,20]]],"rhsgref_6b27m_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
-	case "ftl":
+	case "rif":
 	{
-		_unit setUnitLoadout [["arifle_MX_GL_F","","acc_pointer_IR","optic_Hamr",["30Rnd_65x39_caseless_mag_Tracer",30],["1Rnd_HE_Grenade_shell",1],""],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam_vest",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_morphine",10],["ACE_bloodIV_250",1],["ACE_epinephrine",1]]],["V_PlateCarrierGL_rgr",[["16Rnd_9x21_Mag",2,17],["HandGrenade",2,1],["B_IR_Grenade",2,1],["SmokeShell",1,1],["SmokeShellGreen",1,1],["SmokeShellBlue",1,1],["SmokeShellOrange",1,1],["Chemlight_green",2,1],["30Rnd_65x39_caseless_mag",6,30]]],["B_AssaultPack_rgr_Medic",[["30Rnd_65x39_caseless_mag_Tracer",2,30],["1Rnd_HE_Grenade_shell",9,1],["1Rnd_Smoke_Grenade_shell",4,1],["1Rnd_SmokeGreen_Grenade_shell",2,1],["1Rnd_SmokeOrange_Grenade_shell",2,1]]],"H_HelmetB_desert","rhs_googles_orange",["Laserdesignator","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","NVGoggles"]];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_rifleman",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",4,1],["SmokeShell",2,1],["SmokeShellBlue",1,1]]],["B_FieldPack_oli",[["hlc_20Rnd_762x51_B_fal",7,20]]],"rhsgref_6b27m_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+	};
+	
+	
+	case "mk":
+	{
+		_unit setUnitLoadout [["hlc_rifle_g3sg1","","","HLC_Optic_ZFSG1",["hlc_20rnd_762x51_b_G3",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_rifleman",[["16Rnd_9x21_Mag",3,17],["rhs_mag_rgo",4,1],["SmokeShell",2,1],["SmokeShellBlue",1,1],["hlc_20rnd_762x51_b_G3",3,20]]],["B_AssaultPack_rgr",[["hlc_20rnd_762x51_b_G3",5,20],["hlc_20rnd_762x51_T_G3",2,20]]],"rhsgref_6b27m_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+	};
+	
+	
+	case "ar":
+	{
+		_unit setUnitLoadout [["rhs_weap_m240G","rhsusf_acc_ARDEC_M240","","optic_MRCO",["rhsusf_100Rnd_762x51_m80a1epr",100],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhs_vydra_3m",[["rhs_mag_rgo",2,1],["SmokeShell",2,1],["16Rnd_9x21_Mag",3,17],["rhsusf_100Rnd_762x51",1,100]]],["B_FieldPack_oli",[["rhsusf_100Rnd_762x51",2,100],["rhsusf_100Rnd_762x51_m62_tracer",2,100],["ACE_SpareBarrel",1,1]]],"rhsgref_6b27m_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+	};
+	
+	
+	case "aar":
+	{
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_rifleman",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",4,1],["SmokeShell",2,1],["SmokeShellBlue",1,1]]],["B_FieldPack_oli",[["hlc_20Rnd_762x51_B_fal",7,20],["rhsusf_100Rnd_762x51",3,100]]],"rhsgref_6b27m_ttsko_forest","",["Binocular","","","",[],[],""],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
 	case "med":
 	{
-		_unit setUnitLoadout [["arifle_MX_F","","acc_pointer_IR","optic_Holosight",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam_tshirt",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_morphine",10]]],["V_PlateCarrierSpec_rgr",[["30Rnd_65x39_caseless_mag",6,30],["16Rnd_9x21_Mag",2,17],["SmokeShell",4,1],["SmokeShellGreen",1,1],["SmokeShellBlue",1,1],["SmokeShellOrange",1,1]]],["B_AssaultPack_rgr_Medic",[["ACE_bloodIV",8],["ACE_Banana",1],["ACE_fieldDressing",30],["ACE_morphine",30],["ACE_epinephrine",15]]],"H_HelmetB_light_desert","fow_g_gloves4",[],["ItemMap","","","ItemCompass","ItemWatch","NVGoggles"]];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_medic",[["ACE_bloodIV",5],["16Rnd_9x21_Mag",2,17],["hlc_20Rnd_762x51_B_fal",2,20],["rhs_mag_rgo",4,1],["SmokeShell",2,1],["SmokeShellBlue",1,1]]],["B_FieldPack_oli",[["ACE_bloodIV",5],["ACE_morphine",40],["ACE_epinephrine",20],["ACE_fieldDressing",40],["hlc_20Rnd_762x51_B_fal",2,20]]],"rhsgref_6b27m_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
-	case "mat":
-	{
-		_unit setUnitLoadout [["arifle_MXC_Holo_pointer_F","","acc_pointer_IR","optic_Holosight",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],["launch_B_Titan_short_F","","","",["Titan_AT",1],[],""],[],["U_B_CombatUniform_mcam",[["ACE_fieldDressing",10],["ACE_morphine",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["ACRE_PRC343",1]]],["V_PlateCarrier1_rgr",[["30Rnd_65x39_caseless_mag",5,30],["SmokeShell",1,1],["SmokeShellGreen",1,1],["Chemlight_green",2,1]]],["B_AssaultPack_mcamo_AT",[["Titan_AT",2,1]]],"H_HelmetB_light_desert","fow_g_gloves6",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]];
-	};
-	
-	
-	case "sl":
-	{
-		_unit setUnitLoadout [["arifle_MX_Hamr_pointer_F","","acc_pointer_IR","optic_Hamr",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam_vest",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_morphine",10],["ACE_bloodIV_250",1],["ACE_epinephrine",1]]],["V_PlateCarrierGL_rgr",[["30Rnd_65x39_caseless_mag",4,30],["16Rnd_9x21_Mag",2,17],["HandGrenade",2,1],["B_IR_Grenade",2,1],["SmokeShell",1,1],["SmokeShellGreen",1,1],["SmokeShellBlue",1,1],["SmokeShellOrange",1,1],["Chemlight_green",2,1],["30Rnd_65x39_caseless_mag_Tracer",3,30]]],[],"H_HelmetB_desert","rhs_googles_orange",["Laserdesignator","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]];
-	};
-	
-	
-	case "co":
-	{
-		_unit setUnitLoadout [["arifle_MXC_ACO_F","","","optic_Aco",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["hgun_Pistol_heavy_01_MRD_F","","","optic_MRD",["11Rnd_45ACP_Mag",11],[],""],["U_B_CombatUniform_mcam",[["ACE_fieldDressing",10],["ACE_bloodIV_250",1],["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_morphine",10],["ACE_epinephrine",1]]],["V_BandollierB_rgr",[["30Rnd_65x39_caseless_mag",4,30],["30Rnd_65x39_caseless_mag_Tracer",2,30],["11Rnd_45ACP_Mag",2,11]]],[],"H_MilCap_mcamo","fow_g_gloves2",[],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
-	};
-	
-
 	case "crew":
 	{
-		_unit setUnitLoadout [["SMG_01_F","ACE_muzzle_mzls_smg_01","acc_flashlight_smg_01","",["30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",25],[],""],[],[],["U_B_CombatUniform_mcam_vest",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["ACE_morphine",10]]],["V_BandollierB_rgr",[["30Rnd_45ACP_Mag_SMG_01_Tracer_Red",5,25],["SmokeShell",4,1],["SmokeShellPurple",1,1],["rhs_mag_m67",1,1]]],[],"H_HelmetCrew_B","G_Tactical_Clear",[],["ItemMap","","","ItemCompass","ItemWatch","NVGoggles"]];
-	};
-	
-	case "drv":
-	{
-		_unit setUnitLoadout [["SMG_01_F","ACE_muzzle_mzls_smg_01","acc_flashlight_smg_01","",["30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",25],[],""],[],[],["U_B_CombatUniform_mcam_vest",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["ACE_morphine",10]]],["V_BandollierB_rgr",[["30Rnd_45ACP_Mag_SMG_01_Tracer_Red",5,25],["SmokeShell",4,1],["SmokeShellPurple",1,1],["rhs_mag_m67",1,1]]],["B_FieldPack_oli",[["ToolKit",1],["ACE_M26_Clacker",1],["rhsusf_m112x4_mag",2,1]]],"H_HelmetCrew_B","G_Tactical_Clear",[],["ItemMap","","","ItemCompass","ItemWatch","NVGoggles"]];
-	};
-	
-	case "diver":
-	{
-		_unit setUnitLoadout [["arifle_MXC_Black_F","muzzle_snds_65_TI_blk_F","","",["30Rnd_65x39_caseless_mag",30],[],""],[],["hgun_ACPC2_F","","","",["9Rnd_45ACP_Mag",8],[],""],["U_B_Wetsuit",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["ACE_morphine",10],["9Rnd_45ACP_Mag",2,8],["30Rnd_65x39_caseless_mag",2,30]]],["V_RebreatherB",[]],["B_ViperLightHarness_blk_F",[["rhs_mag_m67",4,1],["SmokeShell",2,1],["SmokeShellPurple",1,1],["SmokeShellYellow",1,1],["30Rnd_65x39_caseless_mag",6,30],["9Rnd_45ACP_Mag",2,8]]],"","rhsusf_oakley_goggles_clr",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_nco",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",3,1]]],[],"rhsgref_fieldcap_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
-
-// CARGO: CAR - room for 10 weapons and 50 cargo items
-	case "v_car":
+	case "crew-cmd":
 	{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 2];
-		_unit addMagazineCargoGlobal [_riflemag, 8];
-		_unit addMagazineCargoGlobal [_glriflemag, 8];
-		_unit addMagazineCargoGlobal [_carbinemag, 10];
-		_unit addMagazineCargoGlobal [_armag, 5];
-		_unit addMagazineCargoGlobal [_ratmag, 1];
-		_unit addMagazineCargoGlobal [_grenade, 4];
-		_unit addMagazineCargoGlobal [_smokegrenade, 4];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addMagazineCargoGlobal [_glmag, 4];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1]]],["rhsgref_6b23_khaki_nco",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",3,1]]],[],"rhsgref_fieldcap_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
-
-// CARGO: TRUCK - room for 50 weapons and 200 cargo items
-	case "v_tr":
+	
+	
+	case "zeus":
 	{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 10];
-		_unit addMagazineCargoGlobal [_riflemag, 40];
-		_unit addMagazineCargoGlobal [_glriflemag, 40];
-		_unit addMagazineCargoGlobal [_carbinemag, 40];
-		_unit addMagazineCargoGlobal [_armag, 22];
-		_unit addMagazineCargoGlobal [_ratmag, 6];
-		_unit addMagazineCargoGlobal [_grenade, 12];
-		_unit addmagazineCargoGlobal [_mgrenade,12];
-		_unit addMagazineCargoGlobal [_smokegrenade, 12];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 4];
-		_unit addMagazineCargoGlobal [_glmag, 12];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 12];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000_RH","muzzle_snds_B_snd_F","","",["hlc_20Rnd_762x51_T_fal",20],[],""],["UK3CB_BAF_AT4_CS_AT_Launcher","","","",["UK3CB_BAF_AT4_CS_AT_Mag",1],[],""],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1]]],["rhsgref_6b23_khaki_nco",[["16Rnd_9x21_Mag",3,17],["rhs_mag_rgo",1,1],["SmokeShell",4,1]]],["B_AssaultPack_rgr",[["rhs_mag_rgo",1,1],["SmokeShell",1,1],["SmokeShellBlue",1,1],["SmokeShellGreen",1,1],["SmokeShellPurple",1,1],["hlc_20Rnd_762x51_T_fal",10,20]]],"rhsgref_fieldcap_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
-
-// CARGO: IFV - room for 10 weapons and 100 cargo items
-	case "v_ifv":
-	{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 4];
-		_unit addMagazineCargoGlobal [_riflemag, 20];
-		_unit addMagazineCargoGlobal [_glriflemag, 20];
-		_unit addMagazineCargoGlobal [_carbinemag, 20];
-		_unit addMagazineCargoGlobal [_armag, 8];
-		_unit addMagazineCargoGlobal [_ratmag, 2];
-		_unit addMagazineCargoGlobal [_grenade, 8];
-		_unit addmagazineCargoGlobal [_mgrenade,8];
-		_unit addMagazineCargoGlobal [_smokegrenade, 8];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addMagazineCargoGlobal [_glmag, 8];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
-	};
-
-// CRATE: Small, ammo for 1 fireteam
-	case "crate_small":
-{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_riflemag, 5];
-		_unit addMagazineCargoGlobal [_glriflemag, 5];
-		_unit addMagazineCargoGlobal [_armag, 5];
-		_unit addMagazineCargoGlobal [_carbinemag, 5];
-		_unit addMagazineCargoGlobal [_glmag, 5];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addMagazineCargoGlobal [_ratmag, 2];
-		_unit addMagazineCargoGlobal [_grenade, 8];
-		_unit addMagazineCargoGlobal [_mgrenade, 8];
-		_unit addMagazineCargoGlobal [_smokegrenade, 8];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
-};
 
 // CRATE: Medium, ammo for 1 squad
 	case "crate_med":
-{
+	{
 		clearWeaponCargoGlobal _unit;
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal ["30Rnd_45ACP_Mag_SMG_01_Tracer_Red", 10];
-		_unit addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag_Tracer", 30];
-		_unit addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 90];
-		_unit addMagazineCargoGlobal ["11Rnd_45ACP_Mag", 20];
-		_unit addMagazineCargoGlobal ["16Rnd_9x21_Mag", 10];
-		_unit addMagazineCargoGlobal ["Titan_AT", 6];
-		_unit addMagazineCargoGlobal ["200Rnd_65x39_cased_Box_Tracer", 10];
-		_unit addMagazineCargoGlobal ["200Rnd_65x39_cased_Box", 20];
-		_unit addMagazineCargoGlobal ["SmokeShell", 10];
-		_unit addMagazineCargoGlobal ["SmokeShellGreen", 5];
-		_unit addMagazineCargoGlobal ["rhs_mag_m67", 20];
-		_unit addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 20];
-		_unit addMagazineCargoGlobal ["1Rnd_Smoke_Grenade_shell", 10];
-		_unit addMagazineCargoGlobal ["1Rnd_SmokeOrange_Grenade_shell", 5];
-		_unit addMagazineCargoGlobal ["1Rnd_SmokeGreen_Grenade_shell", 5];
+		
+		_unit addItemCargoGlobal ["hlc_rifle_FAL5000", 2];
+		_unit addItemCargoGlobal ["hgun_Rook40_F", 2];
+		_unit addItemCargoGlobal ["rhs_weap_m72a7", 4];
 
-		_unit addItemCargoGlobal ["ACRE_PRC343", 20];
-		_unit addItemCargoGlobal ["ACRE_PRC152", 5];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 40];
+		_unit addItemCargoGlobal ["ACE_fieldDressing", 50];
 		_unit addItemCargoGlobal ["ACE_epinephrine", 20];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 100];
-		_unit addItemCargoGlobal ["ACE_morphine", 100];
-		_unit addItemCargoGlobal ["Laserbatteries", 1];
+		_unit addItemCargoGlobal ["ACE_morphine", 50];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 10];
 
-		_unit addWeaponCargoGlobal ["SMG_01_F", 1];
-		_unit addWeaponCargoGlobal ["arifle_MX_F", 1];
-		_unit addWeaponCargoGlobal ["arifle_MX_GL_F", 1];
-		_unit addWeaponCargoGlobal ["arifle_MXM_Hamr_LP_BI_F", 1];
-		_unit addWeaponCargoGlobal ["LMG_Mk200_F", 1];
-		_unit addWeaponCargoGlobal ["launch_NLAW_F", 2];
-		_unit addWeaponCargoGlobal ["hgun_Pistol_heavy_01_MRD_F", 2];
-		_unit addWeaponCargoGlobal ["hgun_P07_F", 2];
-		_unit addWeaponCargoGlobal ["Laserdesignator", 2];
-};
+		_unit addItemCargoGlobal ["hlc_20Rnd_762x51_B_fal", 50];
+		_unit addItemCargoGlobal ["hlc_20Rnd_762x51_T_fal", 10];
+		_unit addItemCargoGlobal ["hlc_20rnd_762x51_b_G3", 10];
+		_unit addItemCargoGlobal ["hlc_20rnd_762x51_T_G3", 2];
+		_unit addItemCargoGlobal ["16Rnd_9x21_Mag", 20];
+		_unit addItemCargoGlobal ["rhsusf_100Rnd_762x51_m80a1epr", 5];
+		_unit addItemCargoGlobal ["rhsusf_100Rnd_762x51_m62_tracer", 5];
+		_unit addItemCargoGlobal ["rhsusf_100Rnd_762x51", 10];
+		_unit addItemCargoGlobal ["ACE_SpareBarrel", 1];
 
-// CRATE: Large, ammo for 1 platoon
-	case "crate_large":
-{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_riflemag, 45];
-		_unit addMagazineCargoGlobal [_glriflemag, 60];
-		_unit addMagazineCargoGlobal [_armag, 45];
-		_unit addMagazineCargoGlobal [_carbinemag, 60];
-		_unit addMagazineCargoGlobal [_glmag, 60];
-		_unit addMagazineCargoGlobal [_glsmokewhite,50];
-		_unit addMagazineCargoGlobal [_ratmag, 20];
-		_unit addMagazineCargoGlobal [_grenade, 75];
-		_unit addMagazineCargoGlobal [_mgrenade, 75];
-		_unit addMagazineCargoGlobal [_smokegrenade, 75];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 20];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 150];
-		_unit addItemCargoGlobal ["ACE_morphine", 75];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 50];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 25];
+		_unit addItemCargoGlobal ["rhs_mag_rgo", 10];
+		_unit addItemCargoGlobal ["SmokeShell", 10];
+		_unit addItemCargoGlobal ["SmokeShellGreen", 2];
+		_unit addItemCargoGlobal ["SmokeShellPurple", 2];
 
-};
+		_unit addItemCargoGlobal ["ACRE_PRC343", 10];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 2];
+		
+		_unit addItemCargoGlobal ["Toolkit", 1];
+	};
 
 // LOADOUT: DEFAULT/UNDEFINED (use RIFLEMAN)
    default
    {
-		_unit addmagazines [_riflemag,7];
-		_unit addweapon _rifle;
-
-		_unit selectweapon primaryweapon _unit;
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10]]],["rhsgref_6b23_khaki_rifleman",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",4,1],["SmokeShell",2,1],["SmokeShellBlue",1,1]]],["B_FieldPack_oli",[["hlc_20Rnd_762x51_B_fal",7,20]]],"rhsgref_6b27m_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 
 		if (true) exitwith {player globalchat format ["DEBUG (f\assignGear\f_assignGear_nato.sqf): Unit = %1. Gear template %2 does not exist, used Rifleman instead.",_unit,_typeofunit]};
    };
@@ -632,10 +497,7 @@ switch (_typeofUnit) do
 // If this isn't run on an infantry unit we can exit
 if !(_isMan) exitWith {};
 
-// ====================================================================================
-
-// Handle weapon attachments
-#include "f_assignGear_attachments.sqf";
+// =========================================
 
 // ====================================================================================
 
