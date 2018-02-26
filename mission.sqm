@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1499;
+		nextID=1512;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3814.8687,257.09186,8526.1279};
-		dir[]={0.77871656,-0.58617318,-0.2241032};
-		up[]={0.56334043,0.81018174,-0.16212104};
-		aside[]={-0.27658775,1.1265511e-006,-0.96109444};
+		pos[]={4036.832,152.58072,8537.7236};
+		dir[]={-0.18154903,-0.59189242,-0.78546399};
+		up[]={-0.13330187,0.80601835,-0.57671756};
+		aside[]={-0.97441512,1.8952414e-007,0.22521895};
 	};
 };
 binarizationWanted=0;
@@ -56,7 +56,6 @@ addons[]=
 	"ace_ballistics",
 	"ace_smallarms",
 	"po_factions_afr",
-	"Cre8ive_Weapons",
 	"A3_Characters_F_Orange_Vests",
 	"hlcweapons_falpocalypse",
 	"rhsusf_c_weapons",
@@ -71,6 +70,7 @@ addons[]=
 	"A3_Structures_F_Exp_Naval_Piers",
 	"A3_Static_F_Exp_Mortar_01",
 	"rhsusf_c_statics",
+	"Cre8ive_Weapons",
 	"A3_Soft_F_Quadbike_01"
 };
 class AddonsMetaData
@@ -281,95 +281,95 @@ class AddonsMetaData
 		};
 		class Item30
 		{
-			className="Cre8ive_Weapons";
-			name="Cre8ive - Custom Weapons";
-			author="Cre8or";
-		};
-		class Item31
-		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
+		class Item31
 		{
 			className="hlcweapons_falpocalypse";
 			name="hlcweapons_falpocalypse";
 			author="toadie";
 		};
-		class Item33
+		class Item32
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item34
+		class Item33
 		{
 			className="rhs_c_a2port_car";
 			name="A2 ported cars";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item35
+		class Item34
 		{
 			className="Cre8ive_Gear_Bw";
 			name="Cre8ive - Bundeswehr characters and clothing";
 			author="Cre8or";
 		};
-		class Item36
+		class Item35
 		{
 			className="rhsgref_c_troops";
 			name="GREF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item37
+		class Item36
 		{
 			className="UK3CB_BAF_Vehicles_LandRover";
 			name="3CB BAF Vehicles - Land Rover";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item38
+		class Item37
 		{
 			className="rhsgref_c_vehicles_ret";
 			name="GREF Vehicle Retextures";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item39
+		class Item38
 		{
 			className="po_factions_me";
 			name="po_factions_me";
 			author="Leight, Keeway";
 		};
-		class Item40
+		class Item39
 		{
 			className="CUP_WheeledVehicles_LAV25";
 			name="CUP_WheeledVehicles_LAV25";
 		};
-		class Item41
+		class Item40
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item42
+		class Item41
 		{
 			className="A3_Static_F_Exp";
 			name="Arma 3 Apex - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item43
+		class Item42
 		{
 			className="rhsusf_c_statics";
 			name="RHSUSF Static Weapons";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
+		};
+		class Item43
+		{
+			className="Cre8ive_Weapons";
+			name="Cre8ive - Custom Weapons";
+			author="Cre8or";
 		};
 		class Item44
 		{
@@ -444,7 +444,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=116;
+		items=125;
 		class Item0
 		{
 			dataType="Logic";
@@ -727,11 +727,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4976.3037,7.1687508,8442.4502};
+				position[]={4976.3042,7.1683922,8442.4502};
 			};
 			id=1107;
 			type="ACE_moduleMedicalSettings";
-			atlOffset=15.671345;
+			atlOffset=15.671;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1093,11 +1093,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5016.3037,6.7114286,8442.4502};
+				position[]={5016.3042,6.7111969,8442.4502};
 			};
 			id=1111;
 			type="ACE_moduleReviveSettings";
-			atlOffset=15.671231;
+			atlOffset=15.671;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1134,7 +1134,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -2341,8 +2341,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4017.4346,116.46346,8490.3809};
-						angles[]={0,6.2288752,0};
+						position[]={4017.4351,116.46358,8490.3809};
+						angles[]={0,6.2288704,0};
 					};
 					side="West";
 					flags=1;
@@ -2355,16 +2355,17 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="Cre8ive_Rfl_CV_Goose";
+								name="rhs_weap_aks74un";
+								muzzle="rhs_acc_dtk2";
 								class primaryMuzzleMag
 								{
-									name="Cre8ive_Mag_2Rnd_Buck";
-									ammoLeft=2;
+									name="rhs_30Rnd_545x39_AK";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="LOP_U_CHR_Citizen_02";
+								typeName="LOP_U_AFR_Civ_01S";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -2388,28 +2389,28 @@ class Mission
 							};
 							class vest
 							{
-								typeName="V_LegStrapBag_black_F";
+								typeName="V_LegStrapBag_olive_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=2;
 									class Item0
 									{
-										name="Cre8ive_Mag_2Rnd_Buck";
-										count=20;
-										ammoLeft=2;
+										name="rhs_30Rnd_545x39_AK";
+										count=6;
+										ammoLeft=30;
 									};
 									class Item1
 									{
-										name="Cre8ive_Mag_2Rnd_Slug";
-										count=10;
-										ammoLeft=2;
+										name="rhs_30Rnd_545x39_AK_green";
+										count=2;
+										ammoLeft=30;
 									};
 								};
 							};
 							class backpack
 							{
-								typeName="B_Messenger_Coyote_F";
+								typeName="B_Messenger_Gray_F";
 								isBackpack=1;
 								class MagazineCargo
 								{
@@ -2449,12 +2450,12 @@ class Mission
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="H_Hat_brown";
+							headgear="H_Hat_grey";
 						};
 					};
 					id=1186;
 					type="B_Soldier_A_F";
-					atlOffset=0.28147125;
+					atlOffset=0.28151703;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2539,6 +2540,7 @@ class Mission
 			};
 			class Attributes
 			{
+				name="LIBERTY";
 			};
 			id=1177;
 			atlOffset=0.26467133;
@@ -2834,6 +2836,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[""crate_med"", this, ""blu_f""] call f_fnc_assignGear;}";
 				description="JUSTICE Vehicle";
 				textures="Camo1";
 			};
@@ -2896,6 +2899,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+				init="call{[""crate_med"", this, ""blu_f""] call f_fnc_assignGear;}";
 				description="LIBERTY Vehicle";
 				textures="Camo3";
 			};
@@ -2976,7 +2980,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_rpg26"",""rhs_weap_ak74m_desert"",""rhs_weap_akmn""],[6,1,5]],[[""Cre8ive_Mag_2Rnd_Buck"",""Cre8ive_Mag_2Rnd_Slug"",""hlc_30Rnd_762x39_b_ak"",""hlc_30Rnd_762x39_t_ak"",""hlc_30Rnd_545x39_B_AK"",""rhsgref_10Rnd_792x57_m76"",""hlc_75Rnd_762x39_m_rpk"",""rhs_mag_rgo"",""SmokeShell""],[20,10,60,20,20,20,20,20,10]],[[""ACE_Banana"",""ACE_fieldDressing"",""ACE_bloodIV"",""ACE_bloodIV_250"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""ToolKit""],[1,30,10,10,10,20,30,1]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
 						};
 					};
 				};
@@ -3838,6 +3842,7 @@ class Mission
 			};
 			class Attributes
 			{
+				name="FREEDOM";
 			};
 			id=1298;
 			class CustomAttributes
@@ -4271,6 +4276,7 @@ class Mission
 			};
 			class Attributes
 			{
+				name="JUSTICE";
 			};
 			id=1299;
 			atlOffset=7.6293945e-006;
@@ -4322,19 +4328,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3980.8591,116.67021,8476.085};
-				angles[]={0.0080009829,1.5021002,0.012000273};
+				position[]={3980.8596,116.67029,8476.085};
+				angles[]={0.0079936078,1.5021002,0.012007865};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
+				init="call{[""landie"", this, ""blu_f""] call f_fnc_assignGear;}";
 				description="FREEDOM Vehicle";
 			};
 			id=1301;
 			type="UK3CB_Civ_LandRover_Hard_Red_A";
-			atlOffset=-7.6293945e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4352,7 +4358,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_rpg26"",""rhs_weap_t5000"",""rhs_weap_ak74m_desert"",""rhs_weap_akmn""],[3,5,1,4]],[[""hlc_30Rnd_762x39_b_ak"",""hlc_30Rnd_762x39_t_ak"",""hlc_30Rnd_545x39_B_AK"",""rhs_mag_rgo"",""SmokeShell"",""rhs_5Rnd_338lapua_t5000""],[30,10,10,5,5,50]],[[""ACE_Banana"",""ACE_fieldDressing"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""bipod_01_F_blk"",""RKSL_optic_PMII_525"",""ToolKit""],[1,15,5,5,10,15,5,5,1]],[[""B_Mortar_01_support_F"",""B_Mortar_01_weapon_F""],[1,1]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4505,7 +4511,7 @@ class Mission
 			name="marker_14";
 			type="mil_arrow";
 			colorName="ColorWEST";
-			angle=226.54811;
+			angle=226.54807;
 			id=1314;
 			atlOffset=-0.02085495;
 		};
@@ -7636,7 +7642,7 @@ class Mission
 		class Item74
 		{
 			dataType="Trigger";
-			position[]={5304.1279,201.35001,7821.9624};
+			position[]={5304.1279,201.35001,7821.9619};
 			class Attributes
 			{
 				condition="call{this}";
@@ -9056,7 +9062,7 @@ class Mission
 					};
 					id=1466;
 					type="B_Soldier_A_F";
-					atlOffset=0.25499725;
+					atlOffset=0.25500488;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9559,7 +9565,7 @@ class Mission
 					};
 					id=1469;
 					type="B_Soldier_A_F";
-					atlOffset=0.3299942;
+					atlOffset=0.33000183;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9641,16 +9647,17 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="Cre8ive_Rfl_CV_Goose";
+								name="rhs_weap_aks74un";
+								muzzle="rhs_acc_dtk2";
 								class primaryMuzzleMag
 								{
-									name="Cre8ive_Mag_2Rnd_Buck";
-									ammoLeft=2;
+									name="rhs_30Rnd_545x39_AK";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="LOP_U_CHR_Citizen_02";
+								typeName="LOP_U_AFR_Civ_01S";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -9674,28 +9681,28 @@ class Mission
 							};
 							class vest
 							{
-								typeName="V_LegStrapBag_black_F";
+								typeName="V_LegStrapBag_olive_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
 									items=2;
 									class Item0
 									{
-										name="Cre8ive_Mag_2Rnd_Buck";
-										count=20;
-										ammoLeft=2;
+										name="rhs_30Rnd_545x39_AK";
+										count=6;
+										ammoLeft=30;
 									};
 									class Item1
 									{
-										name="Cre8ive_Mag_2Rnd_Slug";
-										count=10;
-										ammoLeft=2;
+										name="rhs_30Rnd_545x39_AK_green";
+										count=2;
+										ammoLeft=30;
 									};
 								};
 							};
 							class backpack
 							{
-								typeName="B_Messenger_Coyote_F";
+								typeName="B_Messenger_Gray_F";
 								isBackpack=1;
 								class MagazineCargo
 								{
@@ -9735,7 +9742,7 @@ class Mission
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="H_Hat_brown";
+							headgear="H_Hat_grey";
 						};
 					};
 					id=1470;
@@ -9825,6 +9832,7 @@ class Mission
 			};
 			class Attributes
 			{
+				name="INDEPENDENCE";
 			};
 			id=1464;
 			atlOffset=0.26599884;
@@ -9884,6 +9892,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+				init="call{[""crate_med"", this, ""blu_f""] call f_fnc_assignGear;}";
 				description="INDEPENDENCE Vehicle";
 				textures="Camo5";
 			};
@@ -9963,7 +9972,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_rpg26"",""rhs_weap_ak74m_desert"",""rhs_weap_akmn""],[6,1,5]],[[""Cre8ive_Mag_2Rnd_Buck"",""Cre8ive_Mag_2Rnd_Slug"",""hlc_30Rnd_762x39_b_ak"",""hlc_30Rnd_762x39_t_ak"",""hlc_30Rnd_545x39_B_AK"",""rhsgref_10Rnd_792x57_m76"",""hlc_75Rnd_762x39_m_rpk"",""rhs_mag_rgo"",""SmokeShell""],[20,10,60,20,20,20,20,20,10]],[[""ACE_Banana"",""ACE_fieldDressing"",""ACE_bloodIV"",""ACE_bloodIV_250"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""ToolKit""],[1,30,10,10,10,20,30,1]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
 						};
 					};
 				};
@@ -10033,7 +10042,7 @@ class Mission
 			position[]={5299.0059,201.35001,7809.8701};
 			name="plyspawn_1";
 			type="Empty";
-			angle=270.41895;
+			angle=270.41885;
 			id=1473;
 		};
 		class Item94
@@ -10168,7 +10177,7 @@ class Mission
 			position[]={4828.6401,43.39917,7294.8418};
 			name="plyspawn_2";
 			type="Empty";
-			angle=171.00562;
+			angle=171.0056;
 			id=1478;
 			atlOffset=-0.7913208;
 		};
@@ -10206,7 +10215,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4684.3828,33.096283,7084.3115};
-				angles[]={-0,2.6733761,0};
+				angles[]={0,2.6733761,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10223,7 +10232,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4681.6621,33.096283,7083.6968};
-				angles[]={-0,2.2610676,0};
+				angles[]={0,2.2610676,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10301,7 +10310,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4200.4814,22.546286,6617.5029};
-				angles[]={-0,5.4866552,0};
+				angles[]={0,5.4866552,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10317,7 +10326,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4202.8584,22.546286,6618.9619};
-				angles[]={-0,5.0743465,0};
+				angles[]={0,5.0743465,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10519,7 +10528,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5199.0156,198.59349,7786.5088};
-				angles[]={0,3.6931314,-0};
+				angles[]={0,3.6931314,0};
 			};
 			side="Empty";
 			class Attributes
@@ -10571,6 +10580,7 @@ class Mission
 			type="mil_flag";
 			colorName="ColorWEST";
 			id=1496;
+			atlOffset=7.6293945e-006;
 		};
 		class Item114
 		{
@@ -10587,6 +10597,7 @@ class Mission
 			};
 			id=1497;
 			type="B_Quadbike_01_F";
+			atlOffset=-0.0010147095;
 		};
 		class Item115
 		{
@@ -10603,6 +10614,105 @@ class Mission
 			};
 			id=1498;
 			type="B_Quadbike_01_F";
+			atlOffset=-0.030464172;
+		};
+		class Item116
+		{
+			dataType="Marker";
+			position[]={3412.8098,482.073,9490.7813};
+			name="marker_93";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorWhite";
+			fillName="SolidFull";
+			a=400;
+			b=500;
+			id=1499;
+			atlOffset=495.40372;
+		};
+		class Item117
+		{
+			dataType="Marker";
+			position[]={3196.4595,435.80276,9760.8984};
+			name="marker_83";
+			text="AN/PRC-343 Channels";
+			type="mil_unknown";
+			id=1500;
+			atlOffset=471.34827;
+		};
+		class Item118
+		{
+			dataType="Marker";
+			position[]={3200.5159,400.164,9563.0859};
+			name="marker_85";
+			text="Channel 1: LIBERTY";
+			type="b_inf";
+			id=1501;
+			atlOffset=431.7345;
+		};
+		class Item119
+		{
+			dataType="Marker";
+			position[]={3200.5159,452.155,9465.8262};
+			name="marker_86";
+			text="Channel 2: FREEDOM";
+			type="b_inf";
+			id=1502;
+			atlOffset=486.75412;
+		};
+		class Item120
+		{
+			dataType="Marker";
+			position[]={3200.5159,474.405,9366.4961};
+			name="marker_87";
+			text="Channel 3: INDEPENDENCE";
+			type="b_inf";
+			id=1503;
+			atlOffset=509.04092;
+		};
+		class Item121
+		{
+			dataType="Marker";
+			position[]={3200.5159,591.46503,9261.9053};
+			name="marker_88";
+			text="Channel 4: JUSTICE";
+			type="b_inf";
+			id=1504;
+			atlOffset=617.60645;
+		};
+		class Item122
+		{
+			dataType="Marker";
+			position[]={4323.5435,435.79419,9691.3809};
+			name="marker_94";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorWhite";
+			fillName="SolidFull";
+			a=400;
+			b=300;
+			id=1509;
+			atlOffset=466.90646;
+		};
+		class Item123
+		{
+			dataType="Marker";
+			position[]={4105.3887,361.00052,9794.748};
+			name="marker_84";
+			text="AN/PRC-152 Channels";
+			type="mil_unknown";
+			id=1510;
+			atlOffset=396.8067;
+		};
+		class Item124
+		{
+			dataType="Marker";
+			position[]={4109.4453,379.41867,9596.9365};
+			name="marker_95";
+			text="Channel 1: ALL UNITS";
+			type="b_inf";
+			id=1511;
+			atlOffset=410.37021;
 		};
 	};
 	class Connections

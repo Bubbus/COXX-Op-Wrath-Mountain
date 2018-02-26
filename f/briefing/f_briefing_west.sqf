@@ -54,21 +54,22 @@ _adm = player createDiaryRecord ["diary", ["Administration","
 
 _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
-COMMANDER'S INTENT
+JUSTICE:
 <br/>
-*** Insert very short summary of plan here. ***
-<br/><br/>
-MOVEMENT PLAN
+Drive to Point FURY and support the assault on Point WRATH.
 <br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-FIRE SUPPORT PLAN
+Support the assault upon Lapangan Futsal Industrial.
 <br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
 <br/>
-*** Insert instructions for specific units here. ***
+LIBERTY + FREEDOM:
+<br/>
+Drive to Point WRATH and clear it of all enemies.
+<br/>
+FREEDOM is to commandeer any static weaponry and support LIBERTY as it assaults Lapangan Futsal Industrial.
+<br/>
+Once static weapons are depleted or friendly forces have pushed beyond support distance, FREEDOM is to join in on the assault.
+<br/>
+All forces are to push through the industrial complex and clear up to Toko Tempat.
 "]];
 
 // ====================================================================================
@@ -78,7 +79,7 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+Assault the mountain, then assault the industry!  For freedom!
 "]];
 
 // ====================================================================================
@@ -88,15 +89,11 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
-<br/><br/>
-ENEMY FORCES
+The people of Tembelan seek freedom! For too long, their island has been sold piecemeal to the highest bidder by its leadership, its beauty and resources stripped bare by foreigners, its people exploited to tear their own island to shreds.
 <br/>
-*** Insert information about enemy forces here.***
-<br/><br/>
-FRIENDLY FORCES
+But no more! The People's Liberation, Order and Progress movement needs YOU! We will storm their mountain - OUR mountain - which they use to control our roads and WE will rain fire and fury down upon their precious industry!
 <br/>
-*** Insert information about friendly forces here.***
+Join PLOP today, and take back our island! For liberty! For freedom! For PLOP!
 "]];
 
 // ====================================================================================

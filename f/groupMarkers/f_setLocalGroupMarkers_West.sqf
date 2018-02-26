@@ -8,16 +8,16 @@
 // NOTE TO CHANGE THE MARKER TEXT, IT IS NOW DONE INGAME BY EDITING THE GROUPS "CALLSIGN" (Or Groupid in game terms)
 // TO CHANGE THE NAME OF THE MEDICS, IT IS DONE BELOW AS "NORMAL"
 
-["GrpNATO_CO",_hq, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+["FREEDOM",_hq, "FREEDOM", "ColorYellow"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_COV",_ifv, "COV", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_ASL",_hq, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
+["LIBERTY",_ft, "LIBERTY", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_A1",_ft, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_A2",_ft, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_AV",_ifv, "AV", "ColorRed"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_BSL",_hq, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpNATO_B1",_ft, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["INDEPENDENCE",_ft, "INDEPENDENCE", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_B2",_ft, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_BV",_ifv, "BV", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
@@ -39,7 +39,7 @@
 ["GrpNATO_DT1",_rec, "DT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_ENG1",_eng, "ENG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_IFV1",_ifv, "IFV1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+["JUSTICE",_ifv, "JUSTICE", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_IFV2",_ifv, "IFV2", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_TNK1",_tnk, "TNK1", "ColorRed"] spawn f_fnc_localGroupMarker;
 

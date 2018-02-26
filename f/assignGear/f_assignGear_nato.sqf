@@ -439,7 +439,7 @@ switch (_typeofUnit) do
 	
 	case "med":
 	{
-		_unit setUnitLoadout [["Cre8ive_Rfl_CV_Goose","","","",["Cre8ive_Mag_2Rnd_Buck",2],[],""],[],[],["LOP_U_CHR_Citizen_02",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",9]]],["V_LegStrapBag_black_F",[["Cre8ive_Mag_2Rnd_Buck",20,2],["Cre8ive_Mag_2Rnd_Slug",10,2]]],["B_Messenger_Coyote_F",[["ACE_bloodIV",7],["ACE_fieldDressing",22],["ACE_morphine",22],["ACE_epinephrine",10],["SmokeShell",4,1]]],"H_Hat_brown","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+		_unit setUnitLoadout [["rhs_weap_aks74un","rhs_acc_dtk2","","",["rhs_30Rnd_545x39_AK",30],[],""],[],[],["LOP_U_AFR_Civ_01S",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",9]]],["V_LegStrapBag_olive_F",[["rhs_30Rnd_545x39_AK",6,30],["rhs_30Rnd_545x39_AK_green",2,30]]],["B_Messenger_Gray_F",[["ACE_bloodIV",7],["ACE_fieldDressing",22],["ACE_morphine",22],["ACE_epinephrine",10],["SmokeShell",4,1]]],"H_Hat_grey","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 	};
 	
 	case "mk":
@@ -469,147 +469,79 @@ switch (_typeofUnit) do
 	};
 	
 	
-
-// CARGO: CAR - room for 10 weapons and 50 cargo items
-	case "v_car":
-	{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 2];
-		_unit addMagazineCargoGlobal [_riflemag, 8];
-		_unit addMagazineCargoGlobal [_glriflemag, 8];
-		_unit addMagazineCargoGlobal [_carbinemag, 10];
-		_unit addMagazineCargoGlobal [_armag, 5];
-		_unit addMagazineCargoGlobal [_ratmag, 1];
-		_unit addMagazineCargoGlobal [_grenade, 4];
-		_unit addMagazineCargoGlobal [_smokegrenade, 4];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addMagazineCargoGlobal [_glmag, 4];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
-	};
-
-// CARGO: TRUCK - room for 50 weapons and 200 cargo items
-	case "v_tr":
-	{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 10];
-		_unit addMagazineCargoGlobal [_riflemag, 40];
-		_unit addMagazineCargoGlobal [_glriflemag, 40];
-		_unit addMagazineCargoGlobal [_carbinemag, 40];
-		_unit addMagazineCargoGlobal [_armag, 22];
-		_unit addMagazineCargoGlobal [_ratmag, 6];
-		_unit addMagazineCargoGlobal [_grenade, 12];
-		_unit addmagazineCargoGlobal [_mgrenade,12];
-		_unit addMagazineCargoGlobal [_smokegrenade, 12];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 4];
-		_unit addMagazineCargoGlobal [_glmag, 12];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 12];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
-	};
-
-// CARGO: IFV - room for 10 weapons and 100 cargo items
-	case "v_ifv":
-	{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 4];
-		_unit addMagazineCargoGlobal [_riflemag, 20];
-		_unit addMagazineCargoGlobal [_glriflemag, 20];
-		_unit addMagazineCargoGlobal [_carbinemag, 20];
-		_unit addMagazineCargoGlobal [_armag, 8];
-		_unit addMagazineCargoGlobal [_ratmag, 2];
-		_unit addMagazineCargoGlobal [_grenade, 8];
-		_unit addmagazineCargoGlobal [_mgrenade,8];
-		_unit addMagazineCargoGlobal [_smokegrenade, 8];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addMagazineCargoGlobal [_glmag, 8];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
-	};
-
-// CRATE: Small, ammo for 1 fireteam
-	case "crate_small":
-{
-		clearWeaponCargoGlobal _unit;
-		clearMagazineCargoGlobal _unit;
-		clearItemCargoGlobal _unit;
-		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_riflemag, 5];
-		_unit addMagazineCargoGlobal [_glriflemag, 5];
-		_unit addMagazineCargoGlobal [_armag, 5];
-		_unit addMagazineCargoGlobal [_carbinemag, 5];
-		_unit addMagazineCargoGlobal [_glmag, 5];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addMagazineCargoGlobal [_ratmag, 2];
-		_unit addMagazineCargoGlobal [_grenade, 8];
-		_unit addMagazineCargoGlobal [_mgrenade, 8];
-		_unit addMagazineCargoGlobal [_smokegrenade, 8];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
-		_unit addItemCargoGlobal ["ACE_morphine", 10];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
-};
-
 // CRATE: Medium, ammo for 1 squad
 	case "crate_med":
-{
+	{
 		clearWeaponCargoGlobal _unit;
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal ["30Rnd_45ACP_Mag_SMG_01_Tracer_Red", 10];
-		_unit addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag_Tracer", 30];
-		_unit addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 90];
-		_unit addMagazineCargoGlobal ["11Rnd_45ACP_Mag", 20];
-		_unit addMagazineCargoGlobal ["16Rnd_9x21_Mag", 10];
-		_unit addMagazineCargoGlobal ["Titan_AT", 6];
-		_unit addMagazineCargoGlobal ["200Rnd_65x39_cased_Box_Tracer", 10];
-		_unit addMagazineCargoGlobal ["200Rnd_65x39_cased_Box", 20];
-		_unit addMagazineCargoGlobal ["SmokeShell", 10];
-		_unit addMagazineCargoGlobal ["SmokeShellGreen", 5];
-		_unit addMagazineCargoGlobal ["rhs_mag_m67", 20];
-		_unit addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 20];
-		_unit addMagazineCargoGlobal ["1Rnd_Smoke_Grenade_shell", 10];
-		_unit addMagazineCargoGlobal ["1Rnd_SmokeOrange_Grenade_shell", 5];
-		_unit addMagazineCargoGlobal ["1Rnd_SmokeGreen_Grenade_shell", 5];
+		
+		_unit addItemCargoGlobal ["rhs_weap_akmn", 5];
+		_unit addItemCargoGlobal ["rhs_weap_ak74m_desert", 1];
+		_unit addItemCargoGlobal ["rhs_weap_rpg26", 6];
 
-		_unit addItemCargoGlobal ["ACRE_PRC343", 20];
-		_unit addItemCargoGlobal ["ACRE_PRC152", 5];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 40];
+		_unit addItemCargoGlobal ["ACE_fieldDressing", 50];
 		_unit addItemCargoGlobal ["ACE_epinephrine", 20];
-		_unit addItemCargoGlobal ["ACE_fieldDressing", 100];
-		_unit addItemCargoGlobal ["ACE_morphine", 100];
-		_unit addItemCargoGlobal ["Laserbatteries", 1];
+		_unit addItemCargoGlobal ["ACE_morphine", 50];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 10];
 
-		_unit addWeaponCargoGlobal ["SMG_01_F", 1];
-		_unit addWeaponCargoGlobal ["arifle_MX_F", 1];
-		_unit addWeaponCargoGlobal ["arifle_MX_GL_F", 1];
-		_unit addWeaponCargoGlobal ["arifle_MXM_Hamr_LP_BI_F", 1];
-		_unit addWeaponCargoGlobal ["LMG_Mk200_F", 1];
-		_unit addWeaponCargoGlobal ["launch_NLAW_F", 2];
-		_unit addWeaponCargoGlobal ["hgun_Pistol_heavy_01_MRD_F", 2];
-		_unit addWeaponCargoGlobal ["hgun_P07_F", 2];
-		_unit addWeaponCargoGlobal ["Laserdesignator", 2];
-};
+		_unit addItemCargoGlobal ["hlc_30Rnd_762x39_b_ak", 60];
+		_unit addItemCargoGlobal ["hlc_30Rnd_762x39_t_ak", 20];
+		_unit addItemCargoGlobal ["hlc_30Rnd_545x39_B_AK", 20];
+		_unit addItemCargoGlobal ["rhsgref_10Rnd_792x57_m76", 20];
+		_unit addItemCargoGlobal ["hlc_75Rnd_762x39_m_rpk", 20];
+		_unit addItemCargoGlobal ["rhs_mag_rgo", 20];
+		_unit addItemCargoGlobal ["SmokeShell", 10];
+		_unit addItemCargoGlobal ["ACE_SpareBarrel", 1];
 
+		_unit addItemCargoGlobal ["SmokeShellGreen", 2];
+		_unit addItemCargoGlobal ["SmokeShellPurple", 2];
+
+		_unit addItemCargoGlobal ["ACRE_PRC343", 10];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 2];
+		
+		_unit addItemCargoGlobal ["Toolkit", 1];
+	};
+	
+	
+	case "landie":
+	{
+		clearWeaponCargoGlobal _unit;
+		clearMagazineCargoGlobal _unit;
+		clearItemCargoGlobal _unit;
+		clearBackpackCargoGlobal _unit;
+		
+		_unit addItemCargoGlobal ["rhs_weap_t5000", 5];
+		_unit addItemCargoGlobal ["rhs_weap_ak74m_desert", 1];
+		_unit addItemCargoGlobal ["rhs_weap_akmn", 4];
+		_unit addItemCargoGlobal ["rhs_weap_rpg26", 3];
+
+		_unit addItemCargoGlobal ["ACE_fieldDressing", 20];
+		_unit addItemCargoGlobal ["ACE_epinephrine", 5];
+		_unit addItemCargoGlobal ["ACE_morphine", 20];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
+
+		_unit addItemCargoGlobal ["hlc_30Rnd_762x39_b_ak", 30];
+		_unit addItemCargoGlobal ["hlc_30Rnd_762x39_t_ak", 10];
+		_unit addItemCargoGlobal ["hlc_30Rnd_545x39_B_AK", 10];
+		_unit addItemCargoGlobal ["rhsgref_10Rnd_792x57_m76", 5];
+		_unit addItemCargoGlobal ["hlc_75Rnd_762x39_m_rpk", 5];
+		_unit addItemCargoGlobal ["rhs_5Rnd_338lapua_t5000", 50];
+		_unit addItemCargoGlobal ["RKSL_optic_PMII_525", 5];
+		_unit addItemCargoGlobal ["bipod_01_F_blk", 5];
+		_unit addItemCargoGlobal ["rhs_mag_rgo", 5];
+		_unit addItemCargoGlobal ["SmokeShell", 5];
+		
+		_unit addItemCargoGlobal ["B_Mortar_01_support_F", 1];
+		_unit addItemCargoGlobal ["B_Mortar_01_weapon_F", 1];
+
+		_unit addItemCargoGlobal ["ACRE_PRC343", 5];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 1];
+		
+		_unit addItemCargoGlobal ["Toolkit", 1];
+	};
+	
 // CRATE: Large, ammo for 1 platoon
 	case "crate_large":
 {
